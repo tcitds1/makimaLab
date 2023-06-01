@@ -10,4 +10,11 @@
 
 * 在配置好本地 `node.js`环境的前提下，参考 [菜鸟教程node.js安装配置](https://www.runoob.com/nodejs/nodejs-install-setup.html)
 * 点击右上角 `Code ` 按钮，`Download Zip`
+* 在命令行中进入makimaLab这个目录下，执行`npm i`命令安装依赖库
+* 如要运行脚本，请在命令行中进入脚本所在目录执行`node xxx.js`运行脚本
+
+## 参考资料
+菜鸟教程node.js https://www.runoob.com/nodejs/nodejs-install-setup.html
+wtf.academy Ethers.js入门 https://www.wtf.academy/ether-start/HelloVitalik/
+
 
