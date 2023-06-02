@@ -38,7 +38,7 @@ async function withDrawOkx(coin, network, address, amount, pwd = "") {
 		network, fee, pwd: ""
 	})
 	if (res.info.wdId)  {
-		console.log(`正在提现 ${network} 链的 ${amount} 个 ${coin} 到 ${address}，手续费 ${fee} ${coin}，提现流水号 为 ${res.info.wdId}`)
+		console.log(`OKX: 正在提现 ${network} 链的 ${amount} 个 ${coin} 到 ${address}，手续费 ${fee} ${coin}，提现流水号 为 ${res.info.wdId}`)
 	}
 }
 
@@ -55,7 +55,7 @@ async function main() {
 	// 获取okx余额
 	await getOkxBalance()
 
-	// 提现 2 个 USDT 到 ERC20 链
+	// 提现 5 个 USDT 到 ERC20 链
 	// await withDrawOkx("USDT", "ERC20", "0x593bf5e65305325C190F9e428350697536c78ebd", "5")
 
 	// 批量提现
