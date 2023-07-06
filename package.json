@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ccxt": "^3.1.16"
+    "axios": "^1.4.0",
+    "ccxt": "^3.1.16",
+    "ethers": "^6.4.1"
   }
 }
